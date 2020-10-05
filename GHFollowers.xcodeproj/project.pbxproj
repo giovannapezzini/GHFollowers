@@ -11,8 +11,10 @@
 		1338B110252568340050BBD7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1338B10F252568340050BBD7 /* SceneDelegate.swift */; };
 		1338B1172525683B0050BBD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1338B1162525683B0050BBD7 /* Assets.xcassets */; };
 		1338B11A2525683B0050BBD7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1338B1182525683B0050BBD7 /* LaunchScreen.storyboard */; };
+		133BFADB2528248500E6AD2E /* GFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133BFADA2528248500E6AD2E /* GFButton.swift */; };
 		1345A0522526D89800094AF6 /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1345A0512526D89800094AF6 /* SearchVC.swift */; };
 		1345A0552526D8C000094AF6 /* FavoritesListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1345A0542526D8C000094AF6 /* FavoritesListVC.swift */; };
+		1345FAB9252ACB82004DAECF /* GFTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1345FAB8252ACB82004DAECF /* GFTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,8 +24,10 @@
 		1338B1162525683B0050BBD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1338B1192525683B0050BBD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1338B11B2525683B0050BBD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		133BFADA2528248500E6AD2E /* GFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFButton.swift; sourceTree = "<group>"; };
 		1345A0512526D89800094AF6 /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
 		1345A0542526D8C000094AF6 /* FavoritesListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesListVC.swift; sourceTree = "<group>"; };
+		1345FAB8252ACB82004DAECF /* GFTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				1338B11B2525683B0050BBD7 /* Info.plist */,
 				1345A0512526D89800094AF6 /* SearchVC.swift */,
 				1345A0542526D8C000094AF6 /* FavoritesListVC.swift */,
+				133BFADA2528248500E6AD2E /* GFButton.swift */,
+				1345FAB8252ACB82004DAECF /* GFTextField.swift */,
 			);
 			path = GHFollowers;
 			sourceTree = "<group>";
@@ -136,7 +142,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1345FAB9252ACB82004DAECF /* GFTextField.swift in Sources */,
 				1345A0552526D8C000094AF6 /* FavoritesListVC.swift in Sources */,
+				133BFADB2528248500E6AD2E /* GFButton.swift in Sources */,
 				1345A0522526D89800094AF6 /* SearchVC.swift in Sources */,
 				1338B10E252568340050BBD7 /* AppDelegate.swift in Sources */,
 				1338B110252568340050BBD7 /* SceneDelegate.swift in Sources */,
@@ -279,6 +287,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M5BS2K2345;
 				INFOPLIST_FILE = GHFollowers/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -297,6 +306,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M5BS2K2345;
 				INFOPLIST_FILE = GHFollowers/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
