@@ -9,14 +9,20 @@ import UIKit
 
 class FollowerListVC: UIViewController {
     
+    enum Section {
+        case main
+    }
+    
     var username: String!
     var collectionView: UICollectionView!
+    var dataSource: UICollectionViewDiffableDataSource<Section, Follower>!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         configureCollectionView()
         configureViewController()
         getFollowers()
+        configureDataSource()
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -59,5 +65,13 @@ class FollowerListVC: UIViewController {
                 self.presentGFAlertOnMainThread(title: "Bad Stuff Happened", message: error.rawValue, buttonTitle: "Ok")
             }
         }
+    }
+    
+    func configureDataSource() {
+        dataSource = UICollectionViewDiffableDataSource<Section, Follower>(collectionView: collectionView, cellProvider: { (collectionView, indexPath, follower) -> UICollectionViewCell? in
+            let cell = collectionView.dequeueReusableCell(withReuseIdentifier: FollowerCell.reuseID, for: indexPath) as! FollowerCell
+            cell.set(follower: follower)
+            return cell
+        })
     }
 }
