@@ -22,6 +22,7 @@
 		1366B7F6252E9D1700DE0E86 /* Follower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1366B7F5252E9D1700DE0E86 /* Follower.swift */; };
 		1366B7F9252E9DBE00DE0E86 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1366B7F8252E9DBE00DE0E86 /* User.swift */; };
 		13A546B9253DB8B0000C8460 /* GFEmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A546B8253DB8B0000C8460 /* GFEmptyStateView.swift */; };
+		13A6A0DF2540DAC000D18ED2 /* UserInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A6A0DE2540DAC000D18ED2 /* UserInfoVC.swift */; };
 		13B626522530F5CC00D03BDC /* ErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B626512530F5CC00D03BDC /* ErrorMessage.swift */; };
 		13C52736253766830099C11D /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C52735253766830099C11D /* UIHelper.swift */; };
 		13C5D33C252C2591004B69E0 /* FollowerListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C5D33B252C2591004B69E0 /* FollowerListVC.swift */; };
@@ -49,6 +50,7 @@
 		1366B7F5252E9D1700DE0E86 /* Follower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Follower.swift; sourceTree = "<group>"; };
 		1366B7F8252E9DBE00DE0E86 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		13A546B8253DB8B0000C8460 /* GFEmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFEmptyStateView.swift; sourceTree = "<group>"; };
+		13A6A0DE2540DAC000D18ED2 /* UserInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoVC.swift; sourceTree = "<group>"; };
 		13B626512530F5CC00D03BDC /* ErrorMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMessage.swift; sourceTree = "<group>"; };
 		13C52735253766830099C11D /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
 		13C5D33B252C2591004B69E0 /* FollowerListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerListVC.swift; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 				1345A0512526D89800094AF6 /* SearchVC.swift */,
 				1345A0542526D8C000094AF6 /* FavoritesListVC.swift */,
 				13C5D33B252C2591004B69E0 /* FollowerListVC.swift */,
+				13A6A0DE2540DAC000D18ED2 /* UserInfoVC.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -307,6 +310,7 @@
 				1313828125340BBF004ABE05 /* FollowerCell.swift in Sources */,
 				1313828525340C36004ABE05 /* GFAvatarImageView.swift in Sources */,
 				13E35EB3252D8F2F0080F95D /* GFBodyLabel.swift in Sources */,
+				13A6A0DF2540DAC000D18ED2 /* UserInfoVC.swift in Sources */,
 				1366B7F6252E9D1700DE0E86 /* Follower.swift in Sources */,
 				13E35EB0252D8DD60080F95D /* GFTitleLabel.swift in Sources */,
 				13C5D33C252C2591004B69E0 /* FollowerListVC.swift in Sources */,
