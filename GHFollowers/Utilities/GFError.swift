@@ -1,8 +1,8 @@
 //
-//  ErrorMessage.swift
+//  GFError.swift
 //  GHFollowers
 //
-//  Created by Giovanna Pezzini on 09/10/20.
+//  Created by Giovanna Pezzini on 21/10/20.
 //
 
 import Foundation
