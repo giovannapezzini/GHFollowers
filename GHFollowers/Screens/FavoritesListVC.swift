@@ -26,8 +26,14 @@ class FavoritesListVC: UIViewController {
     }
     
     func configureTableView() {
+        view.addSubview(tableView)
+        
+        tableView.frame = view.bounds
+        tableView.rowHeight = 80
         tableView.delegate = self
         tableView.dataSource = self
+        
+        tableView.register(FavoriteCell.self, forCellReuseIdentifier: FavoriteCell.reuseID)
     }
     
     func getFavorites() {
